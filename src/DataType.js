@@ -26,10 +26,8 @@ module.exports = {
 				break;
 			case 'string':
 				return data.length;
-				break;
 			case 'function':
 				return data(true);
-				break;
 			case 'object':
 				if(array){
 					return data[2];
