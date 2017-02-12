@@ -1,4 +1,4 @@
-const DataType = {
+module.exports = {
 	dataTypes : function (data){
 		if(data === undefined || data === null){
 			return 'no value';
@@ -38,5 +38,3 @@ const DataType = {
 	}
 }
 
-var a = DataType.dataTypes;
-console.log(a("Hello"));

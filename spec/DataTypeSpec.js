@@ -1,7 +1,9 @@
-const DT = require("../src/DataType");
-describe("Data types tests ", function() {
-  const dataTypes = DT.dataTypes;
 
+const DT = require("../src/DataType");
+const dataTypes = DT.dataTypes;
+describe("Data types tests ", function() {
+  //const dataTypes = DT.dataTypes;
+  //const dataTypes = new DataTypes.dataTypes;
   describe("Case for some falsy values", function() {
 
     it("should return 'no value' for null", function() {
