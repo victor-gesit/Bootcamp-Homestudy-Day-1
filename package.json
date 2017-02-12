@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-homestudy-day-1",
+  "version": "1.0.0",
+  "description": "Bootcamp Labs for Day 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor4l/Bootcamp-Homestudy-Day-1.git"
+  },
+  "keywords": [
+    "Homestudy",
+    "day",
+    "1"
+  ],
+  "author": "Victor Idongesit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor4l/Bootcamp-Homestudy-Day-1/issues"
+  },
+  "homepage": "https://github.com/victor4l/Bootcamp-Homestudy-Day-1#readme"
+}
