@@ -1,5 +1,5 @@
 module.exports = {
-	dataTypes : function (data){
+	dataTypes (data){
 		if(data === undefined || data === null){
 			return 'no value';
 		}
