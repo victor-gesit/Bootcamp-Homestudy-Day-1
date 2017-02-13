@@ -1,5 +1,13 @@
 module.exports = {
 	getPrimes(n){
+		if(isNaN(n)){
+			return 'invalid input';
+		} else if (n <= 0){
+			return 'invalid input';
+		} else if(n % 1 != 0){
+			return 'invalid input';
+		}
+
 		const upperLimit = Math.sqrt(n);
 		const fullList = [];
 		const result = [];
