@@ -1,6 +1,6 @@
 
-const DT = require("../src/DataType");
-const dataTypes = DT.dataTypes;
+const dt = require("../src/DataType");
+const dataTypes = dt.dataTypes;
 describe("Data types tests ", function() {
   //const dataTypes = DT.dataTypes;
   //const dataTypes = new DataTypes.dataTypes;
