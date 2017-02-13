@@ -1,4 +1,4 @@
-const DataType = {
+module.exports = {
 	dataTypes : function (data){
 		if(data === undefined || data === null){
 			return 'no value';
@@ -26,10 +26,8 @@ const DataType = {
 				break;
 			case 'string':
 				return data.length;
-				break;
 			case 'function':
 				return data(true);
-				break;
 			case 'object':
 				if(array){
 					return data[2];
@@ -38,5 +36,3 @@ const DataType = {
 	}
 }
 
-var a = DataType.dataTypes;
-console.log(a("Hello"));
