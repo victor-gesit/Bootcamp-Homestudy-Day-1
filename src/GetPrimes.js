@@ -2,7 +2,7 @@ module.exports = {
 	getPrimes(n){
 		const upperLimit = Math.sqrt(n);
 		const fullList = [];
-		const result;
+		const result = [];
 		for(var i = 0; i < n; i++){
 			fullList.push(true);
 		}
@@ -13,10 +13,11 @@ module.exports = {
 				}
 			}
 		}
-		for(var k = 0; k < n; k++){
+		for(var k = 2; k < n; k++){
 			if(fullList[k]){
 				result.push(k);
 			}
 		}
+		return result;
 	}
 };
